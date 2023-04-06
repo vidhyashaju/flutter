@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "552831330533",
+    "project_id": "chatmsg-56f33",
+    "storage_bucket": "chatmsg-56f33.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:552831330533:android:6767bb57497f55d19e8c0c",
+        "android_client_info": {
+          "package_name": "com.example.flu_15chatbox"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "552831330533-joqphjnd937i1boslm2chjnfrn7havdh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJW6_iKqi1jkNODiYT5Dp37Nr0MftpckY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "552831330533-joqphjnd937i1boslm2chjnfrn7havdh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
