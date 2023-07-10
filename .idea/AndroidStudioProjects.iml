@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/workoutnvgn/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/workoutnvgn/build" />
+      <excludeFolder url="file://$MODULE_DIR$/workoutnvgn/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/sample_http/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/sample_http/build" />
+      <excludeFolder url="file://$MODULE_DIR$/sample_http/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/flu_28/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/flu_28/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/flu_28/build" />
+      <excludeFolder url="file://$MODULE_DIR$/sample_httpposst/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/sample_httpposst/build" />
+      <excludeFolder url="file://$MODULE_DIR$/sample_httpposst/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/bmi_cal/build" />
+      <excludeFolder url="file://$MODULE_DIR$/bmi_cal/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/bmi_cal/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/samlog/build" />
+      <excludeFolder url="file://$MODULE_DIR$/samlog/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/samlog/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/flu_mar3/build" />
+      <excludeFolder url="file://$MODULE_DIR$/flu_mar3/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/flu_mar3/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/longinage/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/longinage/build" />
+      <excludeFolder url="file://$MODULE_DIR$/longinage/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/sample/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/sample/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/sample/build" />
+      <excludeFolder url="file://$MODULE_DIR$/loginnew/build" />
+      <excludeFolder url="file://$MODULE_DIR$/loginnew/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/loginnew/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/flu_naviBar/build" />
+      <excludeFolder url="file://$MODULE_DIR$/flu_naviBar/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/flu_naviBar/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/flu_mar2/build" />
+      <excludeFolder url="file://$MODULE_DIR$/flu_mar2/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/flu_mar2/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/chess/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/chess/build" />
+      <excludeFolder url="file://$MODULE_DIR$/chess/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/todo_list/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/todo_list/build" />
+      <excludeFolder url="file://$MODULE_DIR$/todo_list/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/shred_prex1/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/shred_prex1/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/shred_prex1/build" />
+      <excludeFolder url="file://$MODULE_DIR$/sample1/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/sample1/build" />
+      <excludeFolder url="file://$MODULE_DIR$/sample1/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/list_view/build" />
+      <excludeFolder url="file://$MODULE_DIR$/list_view/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/list_view/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/flu_23datetime/build" />
+      <excludeFolder url="file://$MODULE_DIR$/flu_23datetime/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/flu_23datetime/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/sample1_http/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/sample1_http/build" />
+      <excludeFolder url="file://$MODULE_DIR$/sample1_http/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/listvie_work/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/listvie_work/build" />
+      <excludeFolder url="file://$MODULE_DIR$/listvie_work/.dart_tool" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

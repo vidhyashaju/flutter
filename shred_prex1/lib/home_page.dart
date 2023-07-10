@@ -28,7 +28,7 @@ class _ViewNoteState extends State<ViewNote> {
          Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              getName == null
+             getName == null
                   ? Text("No data")
                   : Center(child: Text("NAME : $getName")),
               getAge == null
@@ -38,7 +38,7 @@ class _ViewNoteState extends State<ViewNote> {
                   ? Text("No data")
                   : Center(child: Text("GENDER : $getGender")),
               Text("LANGUAGES : $getLang"),
-            ],
+              ],
           ),
 
 
@@ -51,7 +51,6 @@ class _ViewNoteState extends State<ViewNote> {
     getAge = shredpf.getString('age');
     getGender = shredpf.getString('gender');
     getLang = shredpf.getStringList('lang');
-
     setState(() {});
   }
 }

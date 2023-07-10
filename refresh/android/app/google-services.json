@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "52109958162",
+    "project_id": "refresh-99d47",
+    "storage_bucket": "refresh-99d47.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:52109958162:android:baadc7622caf143f0c4ccb",
+        "android_client_info": {
+          "package_name": "com.example.refresh"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "52109958162-s962r32k4d5s07ff2pqvi8r2a58vpbiu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfOKdpUFQ3NDRBSJVD1TBZ1f3z_D5soI0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "52109958162-s962r32k4d5s07ff2pqvi8r2a58vpbiu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -12,19 +12,23 @@ class RentalReg extends StatelessWidget {
   TextEditingController userName = TextEditingController();
   TextEditingController address = TextEditingController();
   TextEditingController phone = TextEditingController();
+  TextEditingController userid=TextEditingController();
   String errorMessage = '';
 
   void register(BuildContext context) async {
     try {
       UserCredential userCredential=await FirebaseAuth.instance.createUserWithEmailAndPassword(
           email: email.text, password: pwd.text);
-      FirebaseFirestore.instance.collection('rental').add({
-        'uid':userCredential.user!.uid,
+
+      String uid=FirebaseAuth.instance.currentUser!.uid;
+      FirebaseFirestore.instance.collection('rental').doc(uid).set({
+        'uid':uid,
         'name': userName.text,
         'email': email.text,
         'password': pwd.text,
         'phone': phone.text,
-        'address': address.text
+        'address': address.text,
+
       });
     //  Navigator.push(context, MaterialPageRoute(builder: (context) => Login()));
     } on FirebaseAuthException catch (error) {
@@ -71,43 +75,19 @@ class RentalReg extends StatelessWidget {
                 Column(mainAxisAlignment: MainAxisAlignment.center, children: [
               Padding(
                 padding: const EdgeInsets.all(10.0),
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Expanded(
-                      child: Padding(
-                        padding: const EdgeInsets.all(8.0),
-                        child: TextFormField(
-                            controller: userName,
-                            validator: (value) {
-                              if (value!.isEmpty) {
-                                return "User Name is Required";
-                              }
-                            },
-                            decoration: InputDecoration(
-                                label: Text("User Name"),
-                                border: OutlineInputBorder(
-                                    borderRadius: BorderRadius.circular(10)))),
-                      ),
-                    ),
-                    Column(
-                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                      children: [
-                        SizedBox(height: 5),
-                        CircleAvatar(minRadius: 20),
-                        ElevatedButton(
-                            style: ButtonStyle(
-                                minimumSize:
-                                    MaterialStateProperty.all(Size.square(20)),
-                                shape: MaterialStateProperty.all(
-                                    RoundedRectangleBorder(
-                                        borderRadius:
-                                            BorderRadius.circular(10)))),
-                            onPressed: () {},
-                            child: Text("PHOTO")),
-                      ],
-                    ),
-                  ],
+                child: Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: TextFormField(
+                      controller: userName,
+                      validator: (value) {
+                        if (value!.isEmpty) {
+                          return "User Name is Required";
+                        }
+                      },
+                      decoration: InputDecoration(
+                          label: Text("User Name"),
+                          border: OutlineInputBorder(
+                              borderRadius: BorderRadius.circular(10)))),
                 ),
               ),
               Padding(
@@ -170,6 +150,7 @@ class RentalReg extends StatelessWidget {
                         border: OutlineInputBorder(
                             borderRadius: BorderRadius.circular(10)))),
               ),
+
               ElevatedButton(
                   onPressed: () async {
                     if (fmKey.currentState!.validate()) {

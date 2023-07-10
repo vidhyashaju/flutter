@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="823a38ee-75d1-48ee-bdc9-c13740e5c99b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../netCash_mgmt/android/app/google-services.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../netCash_mgmt/assets/image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../netCash_mgmt/lib/display.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../netCash_mgmt/lib/home_page.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../netCash_mgmt/lib/view_details.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../refresh/android/app/google-services.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../refresh/lib/api_check.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../refresh/lib/detail.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../refresh/lib/home.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sadya/assets/splash.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sadya/lib/content.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sadya/lib/home_page.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sadya/lib/receipe_detail.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_april6/android/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_april6/android/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_april6/android/app/src/debug/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_april6/android/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_april6/android/app/src/main/kotlin/com/example/test_april6/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_april6/android/app/src/main/res/drawable-v21/launch_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_april6/android/app/src/main/res/drawable/launch_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_april6/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_april6/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_april6/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_april6/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_april6/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_april6/android/app/src/main/res/values-night/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_april6/android/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_april6/android/app/src/profile/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_april6/android/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_april6/android/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_april6/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_april6/android/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vehicle_rentapp/lib/rental_company/update_vehicledetails.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vehicle_rentapp/lib/rental_company/view_booking.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vehicle_rentapp/lib/rental_company/view_review.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vehicle_rentapp/lib/rental_company/view_vehicle.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vehicle_rentapp/lib/user/my_bookings.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shred_prex1/lib/home_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../shred_prex1/lib/home_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vehicle_rentapp/lib/rental_company/myaccount_rental.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../vehicle_rentapp/lib/rental_company/myaccount_rental.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vehicle_rentapp/lib/rental_company/rental_register.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../vehicle_rentapp/lib/rental_company/rental_register.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vehicle_rentapp/lib/rental_company/vehicleDetail.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../vehicle_rentapp/lib/rental_company/vehicleDetail.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vehicle_rentapp/lib/rental_company/vehicle_add.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../vehicle_rentapp/lib/rental_company/vehicle_add.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vehicle_rentapp/lib/user/home_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../vehicle_rentapp/lib/user/home_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vehicle_rentapp/lib/user/login_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../vehicle_rentapp/lib/user/login_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vehicle_rentapp/lib/user/myaccount_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../vehicle_rentapp/lib/user/myaccount_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vehicle_rentapp/lib/user/register_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../vehicle_rentapp/lib/user/register_screen.dart" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2LMS3veXsnXZ2UvlxRGW77mEnzi" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../samlog" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter" temporary="true">
+      <option name="filePath" value="$PROJECT_DIR$/lib/main.dart" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="firstap" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="firstap" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Flutter.main.dart" />
+        <item itemvalue="Flutter.main.dart" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="823a38ee-75d1-48ee-bdc9-c13740e5c99b" name="Changes" comment="" />
+      <created>1675679283156</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1675679283156</updated>
+    </task>
+    <servers />
+  </component>
+</project>

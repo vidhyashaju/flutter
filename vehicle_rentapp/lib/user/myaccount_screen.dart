@@ -71,7 +71,7 @@ class _MyAccountState extends State<MyAccount> {
                             children: [
                               Padding(
                                 padding: const EdgeInsets.all(15.0),
-                                child: TextFormField(
+                                child: TextFormField(style: TextStyle(fontWeight:FontWeight.bold,fontSize: 20),
                                     validator: (val) {
                                       if (val!.isEmpty) {
                                         return "User name is  required";
@@ -79,14 +79,14 @@ class _MyAccountState extends State<MyAccount> {
                                     },
                                     controller: userName,
                                     decoration: InputDecoration(
-                                        label: Text("User Name"),
+                                        label: Text("User Name",style: TextStyle(fontSize: 20),),
                                         border: OutlineInputBorder(
                                             borderRadius:
                                                 BorderRadius.circular(10)))),
                               ),
                               Padding(
                                 padding: const EdgeInsets.all(15.0),
-                                child: TextFormField(
+                                child: TextFormField(style: TextStyle(fontWeight:FontWeight.bold,fontSize: 20),
                                     validator: (val) {
                                       if (val!.length < 10) {
                                         return "Must contains 10 digits";
@@ -95,14 +95,14 @@ class _MyAccountState extends State<MyAccount> {
                                     maxLength: 10,
                                     controller: phone,
                                     decoration: InputDecoration(
-                                        label: Text("Phone No "),
+                                        label: Text("Phone No ",style: TextStyle(fontSize: 25),),
                                         border: OutlineInputBorder(
                                             borderRadius:
                                                 BorderRadius.circular(10)))),
                               ),
                               Padding(
                                 padding: const EdgeInsets.all(15.0),
-                                child: TextFormField(
+                                child: TextFormField(style: TextStyle(fontWeight:FontWeight.bold,fontSize: 20),
                                     maxLines: 5,
                                     validator: (val) {
                                       if (val!.isEmpty) {
@@ -111,7 +111,7 @@ class _MyAccountState extends State<MyAccount> {
                                     },
                                     controller: address,
                                     decoration: InputDecoration(
-                                        label: Text("Address"),
+                                        label: Text("Address",style: TextStyle(fontSize: 25)),
                                         border: OutlineInputBorder(
                                             borderRadius:
                                                 BorderRadius.circular(10)))),
@@ -131,7 +131,7 @@ class _MyAccountState extends State<MyAccount> {
                                      }  },
                                   child: Text(
                                     "UPDATE",
-                                    style: TextStyle(fontSize: 20),
+                                    style: TextStyle(fontSize: 25),
                                   )),
                             ],
                           ),

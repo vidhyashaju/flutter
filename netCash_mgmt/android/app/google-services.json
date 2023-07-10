@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "733571112540",
+    "project_id": "netcashmgmt",
+    "storage_bucket": "netcashmgmt.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:733571112540:android:a5cfc840da1339c362d099",
+        "android_client_info": {
+          "package_name": "com.example.netcash_mgmt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "733571112540-r7lt75tnfhcpf2dhn6j102kif6frhhnq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAp_T9Rt6Tf-nXRxxmWrrM7UgNPZvLVlgo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "733571112540-r7lt75tnfhcpf2dhn6j102kif6frhhnq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

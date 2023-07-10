@@ -71,43 +71,19 @@ class Register extends StatelessWidget {
                 Column(mainAxisAlignment: MainAxisAlignment.center, children: [
               Padding(
                 padding: const EdgeInsets.all(10.0),
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Expanded(
-                      child: Padding(
-                        padding: const EdgeInsets.all(8.0),
-                        child: TextFormField(
-                            controller: userName,
-                            validator: (value) {
-                              if (value!.isEmpty) {
-                                return "User Name is Required";
-                              }
-                            },
-                            decoration: InputDecoration(
-                                label: Text("User Name"),
-                                border: OutlineInputBorder(
-                                    borderRadius: BorderRadius.circular(10)))),
-                      ),
-                    ),
-                    Column(
-                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                      children: [
-                        SizedBox(height: 5),
-                        CircleAvatar(minRadius: 20),
-                        ElevatedButton(
-                            style: ButtonStyle(
-                                minimumSize:
-                                    MaterialStateProperty.all(Size.square(20)),
-                                shape: MaterialStateProperty.all(
-                                    RoundedRectangleBorder(
-                                        borderRadius:
-                                            BorderRadius.circular(10)))),
-                            onPressed: () {},
-                            child: Text("PHOTO")),
-                      ],
-                    ),
-                  ],
+                child: Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: TextFormField(
+                      controller: userName,
+                      validator: (value) {
+                        if (value!.isEmpty) {
+                          return "User Name is Required";
+                        }
+                      },
+                      decoration: InputDecoration(
+                          label: Text("User Name"),
+                          border: OutlineInputBorder(
+                              borderRadius: BorderRadius.circular(10)))),
                 ),
               ),
               Padding(

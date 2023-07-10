@@ -25,7 +25,7 @@ class Login extends StatelessWidget {
       userCollection.docs.forEach((element) {
         if(element['uid']==uid)
           {
-            String userName=element['name'];
+              String userName=element['name'];
             Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=>Home(email:email,userName: userName,)));
           }
       });
@@ -111,6 +111,7 @@ class Login extends StatelessWidget {
                 padding: const EdgeInsets.all(20.0),
                 child: TextFormField(
                     controller: pwdCtlr,
+                    obscureText: true,
                     style: TextStyle(fontSize: 20, color: Colors.cyan),
                     validator: (val) {
                       if (val!.isEmpty) {
